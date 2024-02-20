@@ -1,5 +1,9 @@
+import React, { useState } from "react"
+import mockUsers from "./mockUsers";
+import mockApartments from "./mockApartments";
 import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from "react-router-dom"
 
 function App() {
   return (
