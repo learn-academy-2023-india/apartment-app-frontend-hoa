@@ -11,6 +11,12 @@ const Header = (currentUser) => {
   return (
     <>
         <h1>Apartments Homepage</h1>
+        <NavLink to="/Home">Home</NavLink>
+        <NavLink to="/ApartmentIndex">Apartment Listing</NavLink>
+        <NavLink to="/ApartmentNew">New Listing</NavLink>
+        <NavLink to="/ApartmentProtectedIndex">Protected Index</NavLink>
+        <NavLink to="/SignIn">Sign In</NavLink>
+        <NavLink to="/SignUp">Sign Up</NavLink>
     </>
   )
 }
