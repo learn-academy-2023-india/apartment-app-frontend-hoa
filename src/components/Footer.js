@@ -4,24 +4,10 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-4">
-            <h4>HOA Inc.</h4>
-            <NavLink to="/about">About Us</NavLink>
-            <NavLink to="/contact">Contact Us</NavLink>
-          </div>
-          <div className="col-md-4">
-            <h4>Legal</h4>
-            <NavLink to="/privacy">Privacy</NavLink>
-            <NavLink to="/terms">Terms of Use</NavLink>
-          </div>
-          <div className="col-md-4">
-            <h4>Connect With Us</h4>
-            <NavLink to="/facebook">Facebook</NavLink>
-            <NavLink to="/twitter">Twitter</NavLink>
-            <NavLink to="/instagram">Instagram</NavLink>
-          </div>
+      <div className="footer-content">
+        <p>&copy; {new Date().getFullYear()} HOA </p>
+        <div className="footer-links">
+          <NavLink to="/about">About</NavLink> | <NavLink to="/contact">Contact</NavLink> | <NavLink to="/privacy">Privacy Policy</NavLink> | <NavLink to="/terms">Terms of Use</NavLink>
         </div>
       </div>
     </footer>

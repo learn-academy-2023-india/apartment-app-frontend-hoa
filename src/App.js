@@ -23,11 +23,11 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/apartmentindex" element={<ApartmentIndex />} />
-          <Route path="/catshow" element={<ApartmentShow />} />
-          <Route path="/catnew" element={<ApartmentNew />} />
-          <Route path="/catedit" element={<ApartmentProtectedIndex />} />
-          <Route path="/catedit" element={<SignIn />} />
-          <Route path="/catedit" element={<SignUp />} />
+          <Route path="/apartmentshow" element={<ApartmentShow />} />
+          <Route path="/apartmentnew" element={<ApartmentNew />} />
+          <Route path="/apartmentprotectedindex" element={<ApartmentProtectedIndex />} />
+          <Route path="/signin" element={<SignIn />} />
+          <Route path="/signup" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       <Footer />

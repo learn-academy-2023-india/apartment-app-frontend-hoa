@@ -1,23 +1,29 @@
 import React from 'react'
-import { Nav } from 'reactstrap'
-import { NavLink, useNavigate } from "react-router-dom";
+import { Nav, NavItem } from 'reactstrap'
+import { NavLink } from 'react-router-dom'
 
-const Header = (currentUser) => {
-  const navigate = useNavigate()
-  const handleClick = () => {
-    navigate("/")
-  }
-
+const Header = () => {
   return (
-    <>
-        <h1>Apartments Homepage</h1>
-        <NavLink to="/Home">Home</NavLink>
-        <NavLink to="/ApartmentIndex">Apartment Listing</NavLink>
-        <NavLink to="/ApartmentNew">New Listing</NavLink>
-        <NavLink to="/ApartmentProtectedIndex">Protected Index</NavLink>
-        <NavLink to="/SignIn">Sign In</NavLink>
-        <NavLink to="/SignUp">Sign Up</NavLink>
-    </>
+      <Nav className="header-nav">
+        <NavItem>
+          <NavLink to="/">HOA</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/ApartmentIndex" className="nav-link">Apartment Listing</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/ApartmentNew" className="nav-link">New Listing</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/ApartmentProtectedIndex" className="nav-link">Protected Index</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/SignIn" className="nav-link">Sign In</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink to="/SignUp" className="nav-link">Sign Up</NavLink>
+        </NavItem>
+      </Nav>
   )
 }
 
