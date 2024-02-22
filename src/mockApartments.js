@@ -1,49 +1,49 @@
 let mockApartments = [
     {
       id: 1,
-      street: "101 Rimrock",
-      unit: "9A",
-      city: "San Diego",
+      street: "6969 Xavier Blvd",
+      unit: "815",
+      city: "San Francisco",
       state: "CA",
       square_footage: 500,
-      price: "1800",
-      bedrooms: 2,
-      bathrooms: 2.0,
+      price: "5000",
+      bedrooms: 1,
+      bathrooms: 1.0,
       pets: "yes!",
       image:
-        "https://images.unsplash.com/photo-1469022563428-aa04fef9f5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+        "https://zillowstatic.com/bedrock/app/uploads/sites/15/Apartment-For-Rent-In-SAN-FRANCISCO-032816-South-Beach.jpg",
       user_id: 1
     },
     {
       id: 2,
-      street: "720 Second Avenue",
-      unit: "508",
-      city: "San Diego",
-      state: "CA",
+      street: "2300 Jackson St",
+      unit: "219",
+      city: "",
+      state: "IN",
       square_footage: 700,
-      price: "2500",
-      bedrooms: 2,
-      bathrooms: 2.0,
-      pets: "yes!",
+      price: "TBD",
+      bedrooms: 1,
+      bathrooms: 1.0,
+      pets: "yehe!",
       image:
-        "https://images.unsplash.com/photo-1469022563428-aa04fef9f5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+        "https://ir.4sqi.net/img/general/original/12298591_MYTjwa3Cxo764VHEcPDIFASP0H-xUySIZP4AfoWxN5w.jpg",
       user_id: 1
     },
     {
       id: 3,
-      street: "415 Rainbow Street",
-      unit: "3B",
-      city: "San Diego",
+      street: "2100 Green Street",
+      unit: "800",
+      city: "San Francisco",
       state: "CA",
-      square_footage: 400,
-      price: "2000",
-      bedrooms: 1,
-      bathrooms: 2.0,
-      pets: "small pets okay",
+      square_footage: 2000,
+      price: "8000",
+      bedrooms: 2,
+      bathrooms: 3.0,
+      pets: "okaay",
       image:
-        "https://images.unsplash.com/photo-1469022563428-aa04fef9f5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80",
+        "https://img-v2.gtsstatic.net/reno/imagereader.aspx?imageurl=https%3A%2F%2Fsir.azureedge.net%2F1253i215%2Fk1a7qjg5p2w2436z9y6zf9zc47i215&option=N&h=472&permitphotoenlargement=false",
       user_id: 2
     }
   ]
-  
+
   export default mockApartments
