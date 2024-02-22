@@ -6,7 +6,7 @@ const Header = () => {
   return (
       <Nav className="header-nav">
         <NavItem>
-          <NavLink to="/">HOA</NavLink>
+          <NavLink to="/">Home</NavLink>
         </NavItem>
         <NavItem>
           <NavLink to="/ApartmentIndex" className="nav-link">Apartment Listing</NavLink>

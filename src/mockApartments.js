@@ -1,7 +1,7 @@
 let mockApartments = [
     {
       id: 1,
-      street: "6969 Xavier Blvd",
+      street: "6969 Diesel Blvd",
       unit: "815",
       city: "San Francisco",
       state: "CA",
@@ -18,7 +18,7 @@ let mockApartments = [
       id: 2,
       street: "2300 Jackson St",
       unit: "219",
-      city: "",
+      city: "Gary",
       state: "IN",
       square_footage: 700,
       price: "TBD",

@@ -13,12 +13,14 @@ const ApartmentIndex = ({ apartments }) => {
             className="apartment-image"
           />
           <CardBody>
-            <CardTitle tag="h5" className="card-title">{apartment.street}</CardTitle>
-            <CardSubtitle className="mb-2 text-muted card-subtitle" tag="h6">
+            <CardTitle tag="h4" className="card-title">{apartment.street}</CardTitle>
+            <CardSubtitle className="mb-2 text-muted card-subtitle" tag="h5">
               Price: {apartment.price}
             </CardSubtitle>
             <NavLink to={`/ApartmentShow/${apartment.id}`} className="nav-link">
+              <button>
               See More Details
+              </button>
             </NavLink>
           </CardBody>
         </Card>
