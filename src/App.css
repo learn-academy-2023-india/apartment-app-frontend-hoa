@@ -9,27 +9,29 @@ body {
 
 /* Home Styles */
 .home-container {
-	align-items: center;
 	display: flex;
-	height: calc(100vh - 120px);
-	justify-content: center;
+	height: calc(100vh - 120px); 
+	justify-content: center; 
 	margin: auto;
 	overflow: hidden;
 	padding-bottom: 5rem;
 }
 
 .home-gif {
-	height: auto;
-  max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
 }
 /* Header Styles */
 .header-nav {
-	align-items: center;
+  align-items: center;
 	background-color: #e6e6fa;
 	border-bottom: 2px solid #1a0462;
 	display: flex;
-	justify-content: center;
-  text-align: center;
+	justify-content: space-between;
+	padding: 1rem 2rem;
 }
 /* Footer Styles */
 .footer {
@@ -82,3 +84,4 @@ body {
 	max-height: 50vh;
 	max-width: 90%;
 }
+

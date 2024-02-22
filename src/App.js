@@ -12,6 +12,8 @@ import SignIn from "./pages/SignIn.js"
 import NotFound from "./pages/NotFound.js"
 import ApartmentProtectedIndex from "./pages/ApartmentProtectedIndex.js"
 import ApartmentNew from "./pages/ApartmentNew.js"
+import "./App.css"
+import ApartmentEdit from "./pages/ApartmentEdit.js"
 
 const App = () => {
   const [currentUser, setCurrentUser] = useState(mockUsers[0])
@@ -19,13 +21,13 @@ const App = () => {
 
   return (
     <>
-      <Header />
+      <Header currentUser={currentUser}/>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/apartmentindex" element={<ApartmentIndex />} />
-          <Route path="/apartmentshow" element={<ApartmentShow />} />
+          <Route path="/apartmentindex" element={<ApartmentIndex apartments={apartments} />} />
+          <Route path="/apartmentshow/:id" element={<ApartmentShow apartments={apartments} />} />
           <Route path="/apartmentnew" element={<ApartmentNew />} />
-          <Route path="/apartmentprotectedindex" element={<ApartmentProtectedIndex />} />
+          <Route path="/myapartments" element={<ApartmentProtectedIndex />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="*" element={<NotFound />} />
